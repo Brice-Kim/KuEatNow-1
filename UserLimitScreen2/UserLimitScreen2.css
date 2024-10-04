@@ -1,0 +1,99 @@
+/* 전체 컨테이너 */
+.user-limit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 375px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* 로고 섹션 */
+.logo-section {
+    width: 100%;
+    text-align: center;
+    height: 88px;
+    margin-bottom: 20px;
+}
+
+/* 섹션 공통 스타일 */
+.section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 18px;
+    color: #F4A968;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+/* 가게 종류 버튼 */
+.store-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.store-button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.store-button.selected {
+    border-color: #F4A968;
+    background-color: #FFF3E0;
+}
+
+/* 예산 입력 */
+.budget-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.budget-input-container input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+}
+
+.budget-input-container span {
+    margin-left: 5px;
+}
+
+/* 다음으로 버튼 - UserLimitScreen2 전용 */
+.user-limit-next-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: #E0E0E0;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.user-limit-next-button.active {
+    background-color: #F4A968;
+}
+
+.user-limit-next-button:disabled {
+    cursor: not-allowed;
+}
