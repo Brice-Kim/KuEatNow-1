@@ -63,28 +63,33 @@
 }
 
 .chat-input-container {
-    display: flex;
-    padding: 10px;
-    background-color: white; /* 입력창 주변 배경을 흰색으로 */
-    border-radius: 15px; /* 경계 둥글게 */
-    margin: 20px; /* 상하 여백 */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  max-width: 375px;
+  width: 90%;
+  display: flex;
+  padding: 5px;
+  background-color: #e8e8e8; /* 입력창 주변 배경을 흰색으로 */
+  border-radius: 20px; /* 경계 둥글게 */
+  margin: 20px; /* 상하 여백 */
 }
 
 .chat-input {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    outline: none;
+  flex: 1;
+  padding: 5px;
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 10px;
+  line-height: normal;
+  outline: none;
 }
 
 .send-button {
-    padding: 10px 15px;
-    background-color: #f4a460; /* 버튼 색상 */
-    color: white;
-    border: none;
-    border-radius: 50%;
-    margin-left: 10px;
-    cursor: pointer;
+  background-size: cover; /* 이미지를 버튼 크기에 맞춤 */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80px; /* 버튼의 너비 (타원형으로 설정) */
+  height: 50px; /* 버튼의 높이 */
+  border: none; /* 테두리 제거 */
+  border-radius: 25px; /* 모서리를 둥글게 해서 타원형으로 만듦 */
+  cursor: pointer; /* 마우스를 올렸을 때 포인터 표시 */
 }
+
