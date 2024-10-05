@@ -17,14 +17,22 @@ function ExplanationScreen1() {
 
     return (
         <div className="explanation-container">
-            <h1 className="logo-text">쿠잇나우 로고</h1>
-            <h2 className="explanation-title">예산&종류 입력</h2>
-            <p className="explanation-description">오늘 식사의 예산과 가게 종류를 <br></br>알려주세요.</p>
+          <header className="header">
+            <img src="\tottenham.png" alt="임시로고" className="logo-image" />
+          </header>
+          <h2 className="explanation-title">예산&종류 입력</h2>
+          <p className="explanation-description">
+            오늘 식사의 예산과<br></br>가게 종류를 알려주세요.
+          </p>
+          {/* 이미지 삽입 부분 */}
+          <div className="image-container">
+            <img
+              src="\onboarding1.png"
+              alt="설명 이미지"
+              className="explanation-image"
+            />
+          </div>
 
-            {/* 이미지 삽입 부분 */}
-            <div className="image-container">
-                <img src="/explanation.png" alt="설명 이미지" className="explanation-image" />
-            </div>
 
             {/* 하단 컨트롤 영역 */}
             <div className="footer">
