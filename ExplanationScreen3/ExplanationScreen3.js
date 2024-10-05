@@ -15,14 +15,20 @@ function ExplanationScreen3() {
 
     return (
         <div className="explanation-container">
-            <h1 className="logo-text">쿠잇나우 로고</h1>
-            <h2 className="explanation-title">가게 추천</h2>
-            <p className="explanation-description">
-                고려대 인근 000개 가게의 리뷰를 기반으로 식당을 추천해줄게요.
-            </p>
-            <div className="image-container">
-                <img src="/region_select_screen.png" alt="RegionSelectScreen 목업" className="explanation-image" />
-            </div>
+          <header className="header">
+            <img src="\tottenham.png" alt="임시로고" className="logo-image" />
+          </header>
+          <h2 className="explanation-title">가게 추천</h2>
+          <p className="explanation-description">
+            고려대 인근 000개 가게의<br></br>리뷰를 기반으로 식당을 추천해줄게요.
+          </p>
+          <div className="image-container">
+            <img
+              src="\onboarding3.png"
+              alt="RegionSelectScreen 목업"
+              className="explanation-image"
+            />
+          </div>
             <div className="footer">
                 <div className="step-indicator">
                     <div className="dot"></div>
