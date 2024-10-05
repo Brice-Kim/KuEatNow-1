@@ -8,7 +8,20 @@ html, body {
     align-items: center;
     background-color: #FFF8DA; /* 배경색 */
 }
-
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 375px;
+    padding: 0 0 0 0; /* 상하 여백 */
+    background-color: #ffffff; /* 필요에 따라 배경색 설정 */
+    position: fixed; /* 하단에 고정 */
+    top: 0; /* 화면의 맨 아래에 위치 */
+    left: 50%; /* 화면 가로 중앙에 위치 */
+    transform: translateX(-50%); /* 가로 중앙 정렬 */
+  }
+  
 .explanation-container {
     display: flex;
     flex-direction: column;
