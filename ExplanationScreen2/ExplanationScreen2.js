@@ -16,15 +16,21 @@ function ExplanationScreen2() {
 
     return (
         <div className="explanation-container">
-            <h1 className="logo-text">쿠잇나우 로고</h1>
-            <h2 className="explanation-title">메뉴 추천</h2>
-            <p className="explanation-description">
-                쿠잇과의 대화를 통해 지금 딱 먹고 싶은 음식을 골라보세요!
-            </p>
-            {/* 이미지 영역 */}
-            <div className="image-container">
-                <img src="/explanation2.jpg" alt="메뉴 추천 이미지" className="explanation-image" />
-            </div>
+          <header className="header">
+            <img src="\tottenham.png" alt="임시로고" className="logo-image" />
+          </header>
+          <h2 className="explanation-title">메뉴 추천</h2>
+          <p className="explanation-description">
+            쿠잇과의 대화를 통해<br></br>지금 딱 먹고 싶은 음식을 골라보세요!
+          </p>
+          {/* 이미지 영역 */}
+          <div className="image-container">
+            <img
+              src="\onboarding2.png"
+              alt="메뉴 추천 이미지"
+              className="explanation-image"
+            />
+      </div>
             {/* 스텝 인디케이터 */}
             <div className="footer">
                 <div className="step-indicator">
