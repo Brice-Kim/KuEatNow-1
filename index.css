@@ -1,25 +1,27 @@
 body {
-  margin: 0;
+  margin: 90px 0 0 0;
   padding: 0;
   font-family: Arial, sans-serif;
   display: flex;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
   height: 100vh;
-  background-color: #f5f5f5;
+  width: 100%;
+  max-width: 375px;
+  background-color: #ffffff;
 }
 
 .container {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 
 .logo-box {
-  background-color: #FFF8DA;
+  background-color: #fff8da;
   padding: 40px;
   margin-bottom: 50px;
   border-radius: 15px;
@@ -41,7 +43,7 @@ body {
 .start-button {
   padding: 15px 40px;
   font-size: 1.2rem;
-  background-color: #FFF8DA;
+  background-color: #fff8da;
   border: none;
   border-radius: 10px;
   cursor: pointer;
